@@ -4,7 +4,7 @@
 
 Middleware for [ui5-server](https://github.com/SAP/ui5-server), enabling a generic login support.
 
-The middleware will authenticate the users via OIDC via CODE flow, behind the hood is express-openid-connect.
+The middleware will authenticate the users using OIDC via CODE flow, behind the hood is express-openid-connect.
 
 ## Prerequisites
 
@@ -19,14 +19,7 @@ npm install ui5-middleware-oidc --save-dev
 
 ## Configuration options (in `$yourapp/ui5.yaml`)
 
-Currently you can define the properties in the configuration (see below) or the following environment variables are used.
-
-- issuerBaseURL
-- clientId
-- clientSecret
-- sessionSecret
-- baseURL
-- scope
+Configurations are sent directly to express-openid-connect
 
 ## Usage
 
@@ -49,11 +42,14 @@ server:
       afterMiddleware: compression
       configuration:
         issuerBaseURL: "<issuerBaseURL>"
-        clientId: "<clientId>"
-        clientSecret: "<clientSecret>"
-        sessionSecret: "<sessionSecret>"
         baseURL: "<baseURL>"
-        scope: "<scope>"
+        clientID: "<clientId>"
+        clientSecret: "<clientSecret>"
+        secret: "<sessionSecret>"
+        idpLogout: true
+        authorizationParams:
+          response_type: "code"
+          scope: "openid profile email"
 
 ```
 

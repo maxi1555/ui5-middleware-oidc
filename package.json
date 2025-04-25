@@ -1,6 +1,6 @@
 {
     "name": "ui5-middleware-oidc",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "OIDC for UI5 tooling",
     "author": "Maximiliano Colman",
     "main": "lib/index.js",
