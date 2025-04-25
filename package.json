@@ -7,16 +7,16 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/maxi1555/ui5-middleware-oidc.git#readme",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/maxi1555/ui5-middleware-oidc.git"
+        "type": "git",
+        "url": "git+https://github.com/maxi1555/ui5-middleware-oidc.git"
     },
     "keywords": [
-      "UI5-tooling",
-      "SAPUI5",
-      "OPENUI5",
-      "OIDC"
+        "UI5-tooling",
+        "SAPUI5",
+        "OPENUI5",
+        "OIDC"
     ],
     "dependencies": {
-      "express-openid-connect": "^2.1.0"
+        "express-openid-connect": "^2.1.0"
     }
-  }
+}
