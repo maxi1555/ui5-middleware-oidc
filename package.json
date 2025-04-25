@@ -1,0 +1,17 @@
+{
+    "name": "ui5-middleware-oidc",
+    "version": "1.0.0",
+    "description": "OIDC for UI5 tooling",
+    "author": "Maximiliano Colman",
+    "main": "lib/index.js",
+    "license": "Apache-2.0",
+    "keywords": [
+      "UI5-tooling",
+      "SAPUI5",
+      "OPENUI5",
+      "OIDC"
+    ],
+    "dependencies": {
+      "express-openid-connect": "^2.1.0"
+    }
+  }
