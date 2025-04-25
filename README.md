@@ -28,17 +28,6 @@ Currently you can define the properties in the configuration (see below) or the 
 - baseURL
 - scope
 
-You can either add the following properties to your .env file, remember to add that to your .gitignore
-
-- ISSUER_BASE_URL
-- CLIENT_ID
-- CLIENT_SECRET
-- SESSION_SECRET
-- BASE_URL
-- SCOPE
-
-Use of environment variables or values set in a `.env` file will be used.
-
 ## Usage
 
 1. Define the dependency in `$yourapp/package.json`:
