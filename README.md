@@ -4,7 +4,7 @@
 
 Middleware for [ui5-server](https://github.com/SAP/ui5-server), enabling a generic login support.
 
-The middleware will authenticate the users using OIDC via CODE flow, behind the hood is express-openid-connect.
+The middleware will authenticate the users using OIDC, behind the hood is express-openid-connect.
 
 ## Prerequisites
 
