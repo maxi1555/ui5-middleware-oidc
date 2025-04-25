@@ -1,10 +1,14 @@
 {
     "name": "ui5-middleware-oidc",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "OIDC for UI5 tooling",
     "author": "Maximiliano Colman",
     "main": "lib/index.js",
     "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/maxi1555/ui5-middleware-oidc.git"
+    },
     "keywords": [
       "UI5-tooling",
       "SAPUI5",
